@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteCam", "RemoteCam\RemoteCam.csproj", "{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7} = {3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteCamGrpc", "RemoteCamGrpc\RemoteCamGrpc.csproj", "{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Debug|x64.Build.0 = Debug|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Debug|x86.Build.0 = Debug|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Release|x64.ActiveCfg = Release|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Release|x64.Build.0 = Release|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Release|x86.ActiveCfg = Release|Any CPU
+		{A34DE2A0-DB9E-43E3-B101-41E76AC4753B}.Release|x86.Build.0 = Release|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Debug|x64.Build.0 = Debug|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Debug|x86.Build.0 = Debug|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Release|x64.ActiveCfg = Release|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Release|x64.Build.0 = Release|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Release|x86.ActiveCfg = Release|Any CPU
+		{3D566D32-71BA-47FE-8C93-2B4C6F84EDC7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9637CBEC-B385-44AE-AD51-89BB1659B802}
+	EndGlobalSection
+EndGlobal
